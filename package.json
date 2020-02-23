@@ -1,0 +1,14 @@
+{
+  "name": "freshavocado",
+  "version": "1.0.0",
+  "description": "First-discord-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "transMorfsDad",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
