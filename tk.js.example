@@ -1,0 +1,29 @@
+// this file should never be place in the pubic
+// with the values of your bots secret key
+// like if you have your code on github etc..
+// comment out the .example and make sure any
+// file that contains this information for real is in your
+// .gitignore file and test that it works.
+
+
+const SECRET = {
+  key: "your secrect key would go here",
+  id: "your discord app id goes here",
+  name: "you bots name goes here",
+  prefix: "!",
+};
+
+module.exports = {
+  getKey: () => {
+    return SECRET.key;
+  },
+  getId: () => {
+    return SECRET.id;
+  },
+  getName: () => {
+    return SECRET.name;
+  },
+  getPrefix: () => {
+    return SECRET.prefix;
+  },
+};
